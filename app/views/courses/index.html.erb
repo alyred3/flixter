@@ -9,6 +9,7 @@
       <%= link_to course.title, course_path(course) %>
     </h2>
     <br />
+    <%= image_tag course.image.to_s, class: 'img-fluid' %>
     <div class="row">
       <div class="col-sm-8 col-12">
         <%= course.description %>
@@ -20,3 +21,10 @@
     <br class="clr" />
   <% end %>
 </div>
+
+  private
+
+  helper_method :current_lesson
+  def current_lesson
+    @current_lesson ||= Lesson.find(params[:id])
+  end
