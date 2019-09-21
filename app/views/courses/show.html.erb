@@ -49,10 +49,14 @@
   <div class="col-12">
     <% @course.sections.each do |section| %>
       <br /><br />
-      <div class="section">
+      <br class="clr" />
+      <ul class="section">
+        <li data-update-url="<%= instructor_section_path(section) %>"> 
         <h3>
          <%= section.title %>  
         </h3>
+        </li>
+      </ul>
         <div class="row">
           <% section.lessons.rank(:row_order).each do |lesson| %>
             <div class="col-12 col-sm-6">
