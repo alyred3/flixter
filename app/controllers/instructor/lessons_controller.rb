@@ -22,9 +22,11 @@ private
     end
   end
 
+
   def current_lesson
-    @current_lesson ||= Lesson.find(params[:id])
+    @current_lesson ||= Lesson.find(params[id])
   end
+
 
   def require_authorized_for_current_section
     if current_section.course.user != current_user
@@ -40,5 +42,4 @@ private
   def lesson_params
     params.require(:lesson).permit(:title, :subtitle, :video, :row_order_position)
   end
-
 end
