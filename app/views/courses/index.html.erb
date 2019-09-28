@@ -11,16 +11,20 @@
     <br />
     <%= image_tag course.image.to_s, class: 'img-fluid' %>
     <br />
-    <div class="row">
-      <div class="col-sm-8 col-12">
+    
+      <div class="col-10 offset-1 text-center">
         <%= course.description %>
       </div>
-      <div class="col-sm-4 col-12 text-center">
-        <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
+      &nbsp;
+      <div class="col-10 offset-4 text-center">
+       &nbsp;&nbsp; <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
       </div>
-    </div>
+      <br /> <br /><br />
+      <hr class="col-8 offset-2">
+    <br class="clr" />
     <br class="clr" />
   <% end %>
 </div>
+
 
   
