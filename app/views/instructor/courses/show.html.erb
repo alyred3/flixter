@@ -35,28 +35,32 @@
 </script>
 
 <br />
-<div class="booyah-box col-10 offset-1 text-center">
-  <h1><%= current_course.title %></h1>
-  <%= image_tag current_course.image.to_s, class: 'img-fluid' %>
-  <br />
-  <br />
+<div class="booyah-box col-10 offset-1">
+  <div class=" text-center">
+   <h1><%= current_course.title %></h1>
+   <br />
+    <%= image_tag current_course.image.to_s, class: 'img-fluid' %>
+  
+    <br />
+    <br />
 
   <div class="row">
     <div class="col-med-4 col-1  text-center">
-      <div class="col-med-4 col-1 offset-7">
+      <div class="col-med-4 col-1 offset-11">
         <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning' %>
+      </div>
         <br class="clr" />
-        <br class="clr" />
+        
 
 
-    <div class="text-center">
+    <div class=" col-med-4 col-1 offset-7 text-center">
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
       Add a new section...
       </button>
     </div>
     <br class="clr" />
-    <br />
+    
   </div>
 </div>
 </div>
@@ -86,7 +90,7 @@
                 <br />
                 <span class="fa fa-ellipsis-v"></span>
               </div>
-              <div class="col-10">
+              <div class="col-10  text-center">
                 <p>
                   <b><%= lesson.title %></b>
                 </p>
