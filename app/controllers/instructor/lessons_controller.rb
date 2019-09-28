@@ -25,7 +25,7 @@ private
 
 
   def current_lesson
-    @current_lesson ||= Lesson.find(params[id])
+    @current_lesson ||= Lesson.find(params[:id])
   end
 
 
@@ -37,7 +37,7 @@ private
 
   helper_method :current_section
   def current_section
-    @current_section ||= Section.find(params[:section_id])
+    @current_section ||= Section.find(params[:id])
   end
 
   def lesson_params
