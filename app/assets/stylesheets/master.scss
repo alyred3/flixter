@@ -115,6 +115,7 @@ body {
 
 ul {
   list-style-type: none;
+  padding-inline-start: 5px;
 }
 
 .section-li {
@@ -148,7 +149,8 @@ ul .header .fa {
 }
 
 .lessons li p {
-  margin: 0;
+display: block;
+  margin: 0px;
 }
 
 .img-fluid {
@@ -157,6 +159,3 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.row buttons {
-  margin: 20px;
-}

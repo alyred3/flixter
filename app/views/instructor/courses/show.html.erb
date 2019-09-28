@@ -43,7 +43,7 @@
 
   <div class="row">
     <div class="col-med-4 col-1  text-center">
-      <div class="col-med-4 col-1 offset-8">
+      <div class="col-med-4 col-1 offset-7">
         <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning' %>
         <br class="clr" />
         <br class="clr" />
@@ -61,7 +61,7 @@
 </div>
 </div>
 
-
+  
   <ul class="sections">
     <% current_course.sections.rank(:row_order).each do |section| %>
       <li data-update-url="<%= instructor_section_path(section) %>" class="section-li">
@@ -76,6 +76,7 @@
         
         <br class="clr">
         <br class="clr">
+
         
       <ul class="lessons">
         <% section.lessons.rank(:row_order).each do |lesson| %>
@@ -85,7 +86,7 @@
                 <br />
                 <span class="fa fa-ellipsis-v"></span>
               </div>
-              <div class="col-11 text-center">
+              <div class="col-10">
                 <p>
                   <b><%= lesson.title %></b>
                 </p>
@@ -103,6 +104,7 @@
     <% end %>
   </ul>
 
+</div>
 </div>
 
 
