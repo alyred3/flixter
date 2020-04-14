@@ -32,7 +32,7 @@ __
 
 
 ### Screenshots
-![Screenshot](landing.png) 
+![Screenshot](app/assets/images/landing.png)
 ![Screenshot](images/admin.png) 
 ![Screenshot](assests/images/studentview.png) 
 ![Screenshot](flixter/app/assests/images/stripe.png)
