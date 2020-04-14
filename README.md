@@ -32,7 +32,7 @@ __
 
 
 ### Screenshots
-![Screenshot](app/assest/images/landing.png)Landing page
-![Screenshot](app/assest/images/admin.png)Admin View
-![Screenshot](app/assest/images/studentview.png)Student View
-![Screenshot](app/assest/images/stripe.png)Payment with Stripe
+![Screenshot](app/assest/images/landing.png)"Landing page"
+![Screenshot](app/assest/images/admin.png)"Admin View"
+![Screenshot](app/assest/images/studentview.png)"Student View"
+![Screenshot](app/assest/images/stripe.png)"Payment with Stripe"
