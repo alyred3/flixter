@@ -33,6 +33,6 @@ __
 
 ### Screenshots
 ![Screenshot](app/assets/images/landing.png)
-![Screenshot](images/admin.png) 
-![Screenshot](assests/images/studentview.png) 
-![Screenshot](flixter/app/assests/images/stripe.png)
+![Screenshot](app/assets/images/admin.png)
+![Screenshot](app/assets/images/studentview.png)
+![Screenshot](app/assets/images/stripe.png)
