@@ -1,24 +1,38 @@
-# README
+# Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A two-sided video streaming marketplace platform. Built using Ruby, Rails, HTML, CSS, and JavaScript. Featuring credit card payment capabilities and user role management.
 
-Things you may want to cover:
 
-* Ruby version
+[View the deployed application](https://flixter-alyssa-redman.herokuapp.com/)
 
-* System dependencies
+__
 
-* Configuration
+### Features
 
-* Database creation
+* Ruby 2.5.3
 
-* Database initialization
+* JavaScript
 
-* How to run the test suite
+* jQuery drag-and-drop functionality for organizing content
 
-* Services (job queues, cache servers, search engines, etc.)
+* PostgresSQL database
 
-* Deployment instructions
+* Devise for user authentication
 
-* ...
+* Simple Form gem for form submission
+
+* Amazon Web Service (AWS) for image storage
+
+* CarrierWave for file uploads
+
+* MiniMagic gem for image resizing
+
+* Swipe integrated to process payments for enrolment fees
+
+
+
+### Screenshots
+![Screenshot](app/assest/images/landing.png)Landing page
+![Screenshot](app/assest/images/admin.png)Admin View
+![Screenshot](app/assest/images/studentview.png)Student View
+![Screenshot](app/assest/images/stripe.png)Payment with Stripe
