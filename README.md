@@ -35,4 +35,4 @@ __
 ![Screenshot](landing.png) 
 ![Screenshot](images/admin.png) 
 ![Screenshot](assests/images/studentview.png) 
-![Screenshot](app/assests/images/stripe.png)
+![Screenshot](flixter/app/assests/images/stripe.png)
