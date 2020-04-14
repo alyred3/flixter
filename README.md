@@ -32,7 +32,7 @@ __
 
 
 ### Screenshots
-![Screenshot](app/assests/images/landing.png) 
-![Screenshot](app/assests/images/admin.png) 
-![Screenshot](app/assests/images/studentview.png) 
+![Screenshot](landing.png) 
+![Screenshot](images/admin.png) 
+![Screenshot](assests/images/studentview.png) 
 ![Screenshot](app/assests/images/stripe.png)
