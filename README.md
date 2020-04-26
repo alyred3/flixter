@@ -5,7 +5,7 @@ A two-sided video streaming marketplace platform. Built using Ruby, Rails, HTML,
 
 [View the deployed application](https://flixter-alyssa-redman.herokuapp.com/)
 
-__
+____________
 
 ### Features
 
@@ -29,7 +29,13 @@ __
 
 * Swipe integrated to process payments for enrolment fees
 
+____________
 
+### How to use
+
+Users can create or enroll in courses. Teachers can create new courses by clicking "Teach a course" on the bottom. Once a course is created sections with videos can be added and a course cost is set. Teachers can managed their courses by accessing the course through their dashboard and entering Administer mode. Content is available to a user after they've enrolled in a course and paid any required fees. 
+
+_____________
 
 ### Screenshots
 ![Screenshot](app/assets/images/landing.png)
