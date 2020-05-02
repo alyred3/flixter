@@ -37,9 +37,5 @@ Users can create or enroll in courses. Teachers can create new courses by clicki
 
 _____________
 
-### Screenshots
+### Site Preview
 ![Screenshot](app/assets/images/Flixter.gif)
-![Screenshot](app/assets/images/landing.png)
-![Screenshot](app/assets/images/admin.png)
-![Screenshot](app/assets/images/studentview.png)
-![Screenshot](app/assets/images/stripe.png)
