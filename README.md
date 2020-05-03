@@ -47,6 +47,17 @@ Run `$ bundle exec figaro install` to add `config/application.yml`  to add to yo
 
 Add AWS keys to `config/application.yml` to congifure application to connect to you Amazon S3 account for image uploading
 
+______________
+
+### Installation
+From this repository click <b>Clone or download</b> and copy command for SSH `git@github.com:alyred3/flixter.git` or HTTPS `https://github.com/alyred3/flixter.git`
+
+From terminal window change to local directory where you want to clone repo
+
+Paste clone command into command line `$ git clone git@github.com:alyred3/flixter.git` or `$ git clone https://github.com/alyred3/flixter.git`
+
+Run `$ bundle install`
+
 ____________
 
 ### How to use
