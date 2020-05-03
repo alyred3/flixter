@@ -29,6 +29,17 @@ ____________
 
 * Swipe integrated to process payments for enrolment fees
 
+______________
+
+### Installation
+From this repository click <b>Clone or download</b> and copy command for SSH `git@github.com:alyred3/flixter.git` or HTTPS `https://github.com/alyred3/flixter.git`
+
+From terminal window change to local directory where you want to clone repo
+
+Paste clone command into command line `$ git clone git@github.com:alyred3/flixter.git` or `$ git clone https://github.com/alyred3/flixter.git`
+
+Run `$ bundle install`
+
 ____________
 
 ### How to use
